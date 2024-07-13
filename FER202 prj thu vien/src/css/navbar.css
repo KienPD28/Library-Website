@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafbfc;
+  box-shadow: 0 3px 4px -2px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+}
+
+.navbar .leftInfo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .leftInfo .title {
+  font-size: 1.2rem;
+  margin-right: 2.2rem;
+}
+
+.navbar .buttons ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar .buttons li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.navbar .buttons li a {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 0.9rem;
+  padding: 1.2rem;
+  display: block;
+}
+
+.navbar .buttons li a:hover {
+  color: black;
+  background-color: #f0f3f5;
+  cursor: pointer;
+}
+
+.navbar .rightInfo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar .links li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.navbar .links li a {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.navbar .login ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .login li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.navbar .login li a {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.navbar .login li a:hover {
+  color: black;
+  cursor: pointer;
+}
